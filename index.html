@@ -18,7 +18,7 @@
 :root {
   color-scheme: light;
   --cwp-green: #78b43c; --cwp-orange: #d2781e; --cwp-gold: #96782d; --cwp-steel: #4398b5; --cwp-navy: #2f5b74; --cwp-dark: #2a2a28; --cwp-wordmark: #465050;
-  --t-oil: #c96d17; --t-mining: #96782d; --t-pipes: #3d8aa8; --t-logging: #5e9a2a; --t-data: #2f5b74; --t-landmark: #9e4b2e;
+  --t-oil: #c96d17; --t-mining: #96782d; --t-pipes: #3d8aa8; --t-logging: #5e9a2a; --t-data: #465050; --t-nuclear: #2f5b74; --t-landmark: #9e4b2e;
   --bg: #ffffff; --soft: #f5f5f3; --fg: #2a2a28; --muted: #66625c; --rule: #e0ddd8;
   --land: #e8e5df; --land-stroke: #c3bfb7; --land-site: #dcd7cd; --land-hover: #cfc7b7; --land-nm: #f2d8b6; --land-nm-hover: #eac697; --water: #f1f4f4;
   --sel-ring: #2a2a28; --mk-ring: #ffffff; --link: #3d759b; --btn: #2f5b74; --placeholder: #ebe8e2;
@@ -379,7 +379,7 @@ window.BAAJA_SITES = [
 },
 {
   id: "beehive", name: "Valar Atomics’ Project Beehive", state: "Utah", st: "UT",
-  threats: ["Data centers and nuclear"], lat: 39.55, lon: -110.75,
+  threats: ["Nuclear", "Data centers"], lat: 39.55, lon: -110.75,
   photo: "price", photoCaption: "BLM land in Price Canyon, near Price, Utah",
   credit: "Bureau of Land Management", creditUrl: "https://commons.wikimedia.org/wiki/File:Price_Canyon_Recreation_Area_(53254476822).jpg", license: "", licenseUrl: "",
   body: [
@@ -390,7 +390,7 @@ window.BAAJA_SITES = [
 },
 {
   id: "townsite", name: "Townsite 2 Data Center", state: "Nevada", st: "NV",
-  threats: ["Data centers and nuclear"], lat: 35.90, lon: -114.93,
+  threats: ["Data centers"], lat: 35.90, lon: -114.93,
   photo: "townsite", photoCaption: "Highland Range from the Eldorado Valley, outside Boulder City, Nevada",
   credit: "Stan Shebs", creditUrl: "https://commons.wikimedia.org/wiki/File:Highland_Range_from_Eldorado_Valley_1.jpg", license: "CC BY-SA 3.0", licenseUrl: "https://creativecommons.org/licenses/by-sa/3.0/",
   body: [
@@ -564,7 +564,8 @@ const THREATS = [
   { name: "Mining", c: "var(--t-mining)" },
   { name: "Roads and pipelines", c: "var(--t-pipes)" },
   { name: "Logging", c: "var(--t-logging)" },
-  { name: "Data centers and nuclear", c: "var(--t-data)" },
+  { name: "Data centers", c: "var(--t-data)" },
+  { name: "Nuclear", c: "var(--t-nuclear)" },
   { name: "Historic landmarks", c: "var(--t-landmark)" }
 ];
 const TC = Object.fromEntries(THREATS.map(t => [t.name, t.c]));
