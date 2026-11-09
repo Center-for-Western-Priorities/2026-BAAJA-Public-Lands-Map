@@ -1,6 +1,6 @@
 # BAAJA public lands map
 
-Interactive scrolling map from the Center for Western Priorities and Earthworks showing 16 public landscapes the Bipartisan American Affordability and Jobs Act (BAAJA) could put at risk.
+Interactive scrolling map from the Center for Western Priorities and Earthworks showing 24 public landscapes the Bipartisan American Affordability and Jobs Act (BAAJA) could put at risk.
 
 ## Files
 
@@ -16,7 +16,7 @@ GitHub Pages: Settings > Pages > Deploy from a branch > `main`, folder `/ (root)
 
 Add a place ID to the end of the URL to open the map scrolled to that place, for example `#chaco`.
 
-IDs: `chaco`, `taylor`, `chama`, `bwca`, `anwr`, `bears`, `gsenm`, `oak`, `ambler`, `teshekpuk`, `tongass`, `otero`, `beehive`, `townsite`, `roan`, `kennedy`.
+IDs: `chaco`, `taylor`, `chama`, `bwca`, `anwr`, `bears`, `gsenm`, `oak`, `ambler`, `teshekpuk`, `tongass`, `otero`, `beehive`, `townsite`, `roan`, `kennedy`, `rosemont`, `mojave`, `musicvalley`, `conglomerate`, `hotcreek`, `sbchannel`, `stibnite`, `graphite`.
 
 ## Embedding on westernpriorities.org
 
